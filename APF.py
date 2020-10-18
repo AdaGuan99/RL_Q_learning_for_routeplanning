@@ -158,7 +158,7 @@ if __name__ == '__main__':
     origin = np.array([0, 0])
 
     maze = pd.read_csv('maze1.csv')  # 不同的迷宫文件
-    goal = (80, 0, 120, 40)
+    goal = (80, 0, 120, 40) # 坐标不对，应该都加40，后两个同理
     # maze = pd.read_csv('maze2.csv')  # 不同的迷宫文件
     # goal = (280, 0, 320, 40)
     # maze = pd.read_csv('maze3.csv')  # 不同的迷宫文件
