@@ -1,6 +1,10 @@
 """
 This part of code initializes Q-table with artificial potential field.
 """
+"""
+APF does not prove to work well in a 10*10 grid world.
+"""
+
 from typing import List
 
 import pandas as pd
