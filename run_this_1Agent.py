@@ -9,8 +9,8 @@ The RL is in RL_brain.py.
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 """
 
-from b1maze_env import Maze
-from b1RL_brain import QLearningTable
+from maze_env_1Agent import Maze
+from RL_brain_1Agent import QLearningTable
 import matplotlib.pyplot as plt
 import pandas as pd
 #import numpy as np
