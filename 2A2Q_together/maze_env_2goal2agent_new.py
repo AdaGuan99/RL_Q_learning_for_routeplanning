@@ -78,7 +78,7 @@ class Maze(tk.Tk, object):
 
         # 创建障碍物
         self.hells = []
-        self.maze = pd.read_csv('small_map1.csv')  # 不同的迷宫文件
+        self.maze = pd.read_csv('../small_map1.csv')  # 不同的迷宫文件
         # self.maze = pd.read_csv('map3.csv')  # 不同的迷宫文件
         self.hell_number = sum(self.maze.genre == 1)
         for i in range(1, self.hell_number+1):

@@ -8,7 +8,6 @@ This script is the main part which controls the update method of this example.
 The RL is in RL_brain.py.
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 """
-import numpy as np
 # from maze_env_2goal_1agent import Maze
 from maze_env_2goal2agent_new import Maze
 from RL_brain_2goal2agent import QLearningTable

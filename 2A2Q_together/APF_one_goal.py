@@ -157,7 +157,7 @@ if __name__ == '__main__':
     obs = []
     origin = np.array([0, 0])
 
-    maze = pd.read_csv('maze1.csv')  # 不同的迷宫文件
+    maze = pd.read_csv('../maze1.csv')  # 不同的迷宫文件
     goal = (80+40, 0+40, 120+40, 40+40)
     # maze = pd.read_csv('maze2.csv')  # 不同的迷宫文件
     # goal = (280+40, 0+40, 320+40, 40+40)
